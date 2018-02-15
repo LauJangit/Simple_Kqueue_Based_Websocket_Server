@@ -1,4 +1,6 @@
-# Simple_Kqueue_Based_Websocket_Server(一个用C++写的WebSocket服务端)
+# Simple_Kqueue_Based_Websocket_Server
+
+# 一个用C++写的WebSocket服务端
 
 使用Kqueue作为异步IO架构
 使用Clion编译，可以运行在MacOS上
