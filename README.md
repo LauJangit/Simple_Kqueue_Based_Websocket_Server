@@ -6,7 +6,7 @@
 
 目前部分功能没有实现:
 - 不支持拓展(如deflate)
-- 不支持定时发送Ping包
+- 不支持定时发送Ping包(因为kqueue模型在未接收到数据时是阻塞的)
 
 所有用于处理websocket协议的类都需要继承websocket/websocket_base_handler.h中的websocket_base_handler类，才能处理Websocket协议
 
