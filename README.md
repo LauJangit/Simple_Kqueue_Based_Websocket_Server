@@ -1,5 +1,4 @@
 # Simple_Kqueue_Based_Websocket_Server
-
 # 一个用C++写的WebSocket服务端
 
 使用Kqueue作为异步IO架构
