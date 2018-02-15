@@ -3,8 +3,8 @@
 特性:
 - 使用C++编写的WebSocket服务端
 - 使用Kqueue作为异步IO架构
-- 使用Clion编译，可以运行在MacOS上
-- 使用了OpenSSL作为计算SHA1以及BASE64的库
+- 使用Clion编写，实测可以运行在MacOS上
+- 使用了OpenSSL作为计算SHA1以及BASE64的库，需要依赖运行库
 
 目前部分功能没有实现:
 - 不支持拓展(如deflate)
